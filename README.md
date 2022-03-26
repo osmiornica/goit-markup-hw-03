@@ -1,12 +1,15 @@
 # goit-markup-hw-03
 Zadanie domowe #3 GoIT
 
+**Zadanie domowe**
 Utwórz repozytorium goit-markup-hw-03.
 Sklonuj utworzone repozytorium i skopiuj do niego pliki poprzedniej pracy.
 Dodaj style geometrii (szerokość, dopełnienia, marginesy i obramowania) oraz pozycjonowanie treści za pomocą Flexbox dla stron układu zadania domowego #3.
 Skonfiguruj GitHub Pages i dodaj link do aktywnej strony do nagłówka repozytorium GitHub.
-Kryteria akceptacji projektu przez mentora
-Projekt
+
+**Kryteria akceptacji projektu przez mentora**
+
+**Projekt**
 «A1» W katalogu głównym projektu znajduje się folder images z obrazami.
 
 «A2» W katalogu głównym projektu znajduje się folder css z plikami stylów.
@@ -23,7 +26,8 @@ Projekt
 
 «A7» Kod jest napisany zgodnie z tutorialem.
 
-Stylizacja
+
+**Stylizacja**
 «B1» Dozwolone jest globalne resetowanie stylów selektora tagu dla elementów <h1>...<h6>, <p> i <ul>.
 
 «B2» Elementy nie mają marginesów zewnętrznych (właściwość margin), które „przebijają” element nadrzędny (rodzicielski).
