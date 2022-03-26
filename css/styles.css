@@ -1,0 +1,224 @@
+/* == Tak wiem powinienem wszystko pisać po angielsku ale jako że jest to zadanie domowe i JA mam pracować na tych przykładach 
+        to niektóre opisy zostawiłem sobie po polsku żeby było mi prościej wrócić do tego za jakiś czas == */
+
+/* == Tak wiem niektóre elementy wybiegają poza zadanie 2 ale z rospędu zrobiłem i działa więc zostawiam == */
+
+:root {
+  /* == Zdefioniowane == */
+  --main-font-family: "Roboto", sans-serif;
+  --sec-font-family: "Raleway", sans-serif;
+  --main-text-color: #212121;
+  --grey-text-color: #757575;
+  --white-text-color: #ffffff;
+  --dark-back-color: #2f303a;
+  --hover-c-blu: #2196f3;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-text-color);
+}
+button {
+  font-family: inherit;
+}
+
+.navigation-list-item-link.active {
+  color: var(--hover-c-blu);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* == NAGŁÓWEK == */
+
+.logo-link {
+  font-family: var(--sec-font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--hover-c-blu);
+}
+
+.logo-dark {
+  color: #000000;
+}
+
+.navigation-list-item-link,
+.email,
+.phone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-item-link {
+  color: var(--main-text-color);
+}
+
+.email,
+.phone {
+  color: var(--grey-text-color);
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.email:hover,
+.email:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--hover-c-blu);
+}
+
+.main-header-container {
+  background-color: var(--dark-back-color);
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-color);
+}
+
+.primary-btn {
+  background-color: var(--hover-c-blu);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text-color);
+  padding: 10px 41px;
+  margin: 0 auto;
+  /* działa zostaw /\ !!! */
+}
+
+.primary-btn:hover {
+  cursor: pointer;
+}
+
+.atributes-list-item-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.atributes-list-item-text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--grey-text-color);
+}
+
+/* Czym się zajmujemy */
+
+.sec-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Nasz zespół */
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.842;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-list-what {
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--grey-text-color);
+}
+
+/* FOOTER/STOPKA  */
+
+.footer {
+  background-color: var(--dark-back-color);
+}
+.address-list-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-list-link:hover,
+.address-list-link:focus {
+  color: var(--hover-c-blu);
+}
+
+.logo-blu {
+  color: var(--white-text-color);
+}
+
+.street {
+  color: var(--white-text-color);
+}
+
+/* PORTFOLIO */
+
+.filter-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  cursor: pointer;
+  color: var(--white-text-color);
+  background-color: var(--hover-c-blu);
+}
+
+.projects-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-list-type {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--grey-text-color);
+}
