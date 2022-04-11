@@ -244,12 +244,13 @@ img {
   list-style: none;
 }
 .obrazek{
-  background-color: red;
   background-image: url('/images/z3.png');
   background-size: cover;
   width:370px;
   height:294px;
 }
+
+/*do zadania 4*/
 
 .pictures-item:not(:last-child) {
 
